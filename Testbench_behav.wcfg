@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="15100000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/Testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/user_reset" type="logic">
+      <obj_property name="ElementShortName">user_reset</obj_property>
+      <obj_property name="ObjectShortName">user_reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider41">
+      <obj_property name="label">LFSR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/LFSR_1/lfsr_out" type="array">
+      <obj_property name="ElementShortName">lfsr_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/LFSR_1/lfsr_max" type="logic">
+      <obj_property name="ElementShortName">lfsr_max</obj_property>
+      <obj_property name="ObjectShortName">lfsr_max</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/LFSR_1/max_tick_reg" type="logic">
+      <obj_property name="ElementShortName">max_tick_reg</obj_property>
+      <obj_property name="ObjectShortName">max_tick_reg</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider39">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/FSM_1/input_bit" type="logic">
+      <obj_property name="ElementShortName">input_bit</obj_property>
+      <obj_property name="ObjectShortName">input_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/FSM_1/tick_reset" type="logic">
+      <obj_property name="ElementShortName">tick_reset</obj_property>
+      <obj_property name="ObjectShortName">tick_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/FSM_1/_state" type="array">
+      <obj_property name="ElementShortName">_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/FSM_1/tick" type="logic">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/counter_unit/tick_reset" type="logic">
+      <obj_property name="ElementShortName">tick_reset</obj_property>
+      <obj_property name="ObjectShortName">tick_reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider40">
+      <obj_property name="label">SSEG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/counter_unit/d3" type="array">
+      <obj_property name="ElementShortName">d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/counter_unit/d2" type="array">
+      <obj_property name="ElementShortName">d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/counter_unit/d1" type="array">
+      <obj_property name="ElementShortName">d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/uut/counter_unit/d0" type="array">
+      <obj_property name="ElementShortName">d0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d0[3:0]</obj_property>
+   </wvobject>
+</wave_config>
