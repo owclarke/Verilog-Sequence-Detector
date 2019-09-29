@@ -6,9 +6,9 @@ modules that were completed in previous assignments to build a Sequence Detector
 “circuits” or modules to perform certain tasks, they are combined together to add extra
 functionality to an FPGA. For the purposes of this assignment, the functionality of the
 Linear-Feedback Shift Register (LFSR) and the Stop-Watch needed to be combined with a
-Finite State Machine (FSM) in order to create a sequence detector to spot the pattern “1010”. The files are called Assign2 as this was the second assignment during the module.
+Finite State Machine (FSM) in order to create a sequence detector to spot the pattern “1010”. The files are called Assigmnent2 as this was the second assignment during the module.
 
-The assign2.src contains a list of different testbenchs and the main file:
+The sources contains a list of different testbenchs and the main file:
 1. Toplevel - This is the main program function, this should be the file to be targeted to the Basys3 board.
 2. Clock_Testbench - This file is used to test the functionality of slowing down the clock for testing in Simulations
 3. FSM_Testbench - This file should be used for testing the functionality of the FSM in simulation by passing through test values into                        into the module.
